@@ -1,0 +1,11 @@
+version: "3.2"
+
+services:
+  tcsql01:
+    container_name: tcsql01
+    image: microsoft/mssql-server-linux:2017-latest
+    ports:
+      - "12433:1433"
+    environment:
+      SA_PASSWORD: "Sql\@Docker\!SA"
+      ACCEPT_EULA: "Y"
