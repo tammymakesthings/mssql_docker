@@ -7,5 +7,5 @@ services:
     ports:
       - "12433:1433"
     environment:
-      SA_PASSWORD: "Sql\@Docker\!SA"
+      SA_PASSWORD: "Sql@Docker!SA"
       ACCEPT_EULA: "Y"
